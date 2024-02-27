@@ -1,0 +1,62 @@
+open_drive: unlabeled start 0xea33 unlabeled last 0xea33 type bytedata
+disk_tab:   unlabeled start 0xea34 unlabeled end  0xea56 type pointers
+ioblock0:   unlabeled start 0xea68 unlabeled last 0xea68 type bytedata
+ioblock1:   unlabeled start 0xea69 unlabeled end  0xea71 type pointers
+ioblock2:   unlabeled start 0xea74 unlabeled last 0xea74 type bytedata
+ioblock3:   unlabeled start 0xea75 unlabeled end  0xea7d type pointers
+ioblock4:   unlabeled start 0xea80 unlabeled last 0xea80 type bytedata
+ioblock5:   unlabeled start 0xea81 unlabeled end  0xea89 type pointers
+ioblock6:   unlabeled start 0xea8c unlabeled last 0xea8c type bytedata
+ioblock7:   unlabeled start 0xea8d unlabeled end  0xea95 type pointers
+ioblock8:   unlabeled start 0xea98 unlabeled last 0xea98 type bytedata
+ioblock9:   unlabeled start 0xea99 unlabeled end  0xeaa1 type pointers
+ioblockA:   unlabeled start 0xeaa4 unlabeled last 0xeaa4 type bytedata
+ioblockB:   unlabeled start 0xeaa5 unlabeled end  0xeaad type pointers
+ioblockC:   unlabeled start 0xeab0 unlabeled last 0xeab0 type bytedata
+ioblockD:   unlabeled start 0xeab1 unlabeled end  0xeab9 type pointers
+ioblockE:   unlabeled start 0xeabc unlabeled last 0xeabc type bytedata
+ioblockF:   unlabeled start 0xeabd unlabeled end  0xeac5 type pointers
+msg1:       unlabeled start 0xebc7 unlabeled last 0xebd7 type bytedata
+msg2:       unlabeled start 0xebe3 unlabeled last 0xebfc type bytedata
+msg3:       unlabeled start 0xecc1 unlabeled last 0xecce type bytedata
+msg4:       unlabeled start 0xecdb unlabeled last 0xecfa type bytedata
+osw7fb1:    unlabeled start 0xed18 unlabeled last 0xed18 type bytedata
+osw7fb2:    unlabeled start 0xed19 unlabeled last 0xed1c type pointers
+osw7fb3:    unlabeled start 0xed1d unlabeled last 0xed27 type bytedata
+hdfilename: unlabeled start 0xed5a unlabeled last 0xed64 type bytedata
+msg5:       unlabeled start 0xedf2 unlabeled last 0xee10 type bytedata
+data1:      unlabeled start 0xefec unlabeled end  0xeff7 type bytedata
+
+diskpars:   unlabeled start 0xeff7 unlabeled end  0xf06f type pointers
+
+dpbhard0_0: unlabeled start 0xf06f unlabeled end  0xf071 type worddata
+dpbhard0_1: unlabeled start 0xf071 unlabeled end  0xf074 type bytedata
+dpbhard0_2: unlabeled start 0xf074 unlabeled end  0xf078 type worddata
+dpbhard0_3: unlabeled start 0xf078 unlabeled end  0xf07a type bytedata
+dpbhard0_4: unlabeled start 0xf07a unlabeled end  0xf07e type worddata
+
+dpbhard1_0: unlabeled start 0xf07e unlabeled end  0xf080 type worddata
+dpbhard1_1: unlabeled start 0xf080 unlabeled end  0xf083 type bytedata
+dpbhard1_2: unlabeled start 0xf083 unlabeled end  0xf087 type worddata
+dpbhard1_3: unlabeled start 0xf087 unlabeled end  0xf089 type bytedata
+dpbhard1_4: unlabeled start 0xf089 unlabeled end  0xf08d type worddata
+
+dpbhard2_0: unlabeled start 0xf08d unlabeled end  0xf08f type worddata
+dpbhard2_1: unlabeled start 0xf08f unlabeled end  0xf092 type bytedata
+dpbhard2_2: unlabeled start 0xf092 unlabeled end  0xf096 type worddata
+dpbhard2_3: unlabeled start 0xf096 unlabeled end  0xf098 type bytedata
+dpbhard2_4: unlabeled start 0xf098 unlabeled end  0xf09c type worddata
+
+dpbhard3_0: unlabeled start 0xf09c unlabeled end  0xf09e type worddata
+dpbhard3_1: unlabeled start 0xf09e unlabeled end  0xf0a1 type bytedata
+dpbhard3_2: unlabeled start 0xf0a1 unlabeled end  0xf0a5 type worddata
+dpbhard3_3: unlabeled start 0xf0a5 unlabeled end  0xf0a7 type bytedata
+dpbhard3_4: unlabeled start 0xf0a7 unlabeled end  0xf0ab type worddata
+
+dpbf400k1:  unlabeled start 0xf0ab unlabeled end  0xf0ad type worddata
+dpbf400k2:  unlabeled start 0xf0ad unlabeled end  0xf0b0 type bytedata
+dpbf400k3:  unlabeled start 0xf0b0 unlabeled end  0xf0b4 type worddata
+dpbf400k4:  unlabeled start 0xf0b4 unlabeled end  0xf0b7 type bytedata
+dpbf400k5:  unlabeled start 0xf0b7 unlabeled end  0xf0bb type worddata
+
+data2:                start 0xf0bb           end  0xf400 type bytedata
